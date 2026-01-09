@@ -1,15 +1,41 @@
-# andmebaaside-alused
+# Andmebaaside alused
 
-To install dependencies:
+Interaktiivne esitlusrakendus andmebaaside aluste õpetamiseks. Ehitatud React ja Framer Motion abil animatsioonide ja sujuvate üleminekutega.
+
+## Teemad
+
+- Andmebaaside haldussüsteemide (DBMS) ülevaade ja võrdlus
+- Andmebaaside arhitektuur
+- Andmebaasiobjektid ja nende omadused
+- Andmetüübid
+- Ajast sõltuvad andmed
+- Normaliseerimine
+- Skaleerimistehnikad
+- SQL ajalugu
+- Praktilised harjutused
+
+## Installeerimine
 
 ```bash
 bun install
 ```
 
-To run:
+## Käivitamine
 
 ```bash
-bun run index.ts
+bun start
 ```
 
-This project was created using `bun init` in bun v1.2.8. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Rakendus käivitub aadressil http://localhost:7000
+
+## Arendusrežiim
+
+```bash
+bun dev
+```
+
+## Testid
+
+```bash
+bun playwright test
+```
